@@ -19,7 +19,7 @@ model = LinearRegression()
 model.fit(X, y)
 
 # UI
-st.title("🎓 Student Marks Predictor By vijval Kumar")
+st.title("🎓 Student Marks Predictor By\n vijval Kumar")
 study_hours = st.slider("📚 Study Hours", 1, 10)
 attendance = st.slider("📅 Attendance (%)", 50, 100)
 internal_marks = st.slider("📝 Internal Marks", 0, 30)
